@@ -11,7 +11,7 @@ qnt_rodas = 4
 qnt_pessoas = 8
 peso_bruto = 4.500
 
-if(qnt_rodas <= 3):
+if(qnt_rodas == 2 or qnt_rodas == 3):
   print("A")
 elif(qnt_rodas == 4 and qnt_pessoas <= 8 and peso_bruto <= 3.500):
   print("B")
